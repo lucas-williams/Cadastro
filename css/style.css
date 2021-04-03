@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121214;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.margin_bottom {
+    margin-bottom: 10px;
+}
+
+/* Formatação do Título */
+.title {
+    font-size: 2em;
+    font-family: 'New Tegomin', serif;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Formatação da Box do Fórmulário */
+.box_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 310px;
+    width: 450px;
+    background-color: #202024;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Formatação do Input do Formulário */
+.input_form {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    padding-left: 60px;
+    box-sizing: border-box;
+    background-color: #121214;
+    border: 0px;
+    color: #fff;
+    font-size: 1.3em;
+    
+}
+
+input[type="text"] {
+    background-image: url(../imagens/icon-people.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 400px) center ;
+}
+
+input[type="email"] {
+    background-image: url(../imagens/icon-email.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 400px) center ;
+}
+
+.input_hover:focus {
+    outline: none;
+    border: 1px solid #8257e5;
+}
+
+input[type="text"]:focus {
+    background-image: url(../imagens/icon-people-color.png);
+    box-shadow: 1px 1px 5px #8257e5, -1px -1px 5px #8257e5;
+}
+
+input[type="email"]:focus {
+    background-image: url(../imagens/icon-email-color.png);
+    box-shadow: 1px 1px 5px #8257e5, -1px -1px 5px #8257e5;
+}
+
+/* Formatação do Botão do Formulário */
+input[type="submit"] {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-weight: bolder;
+    background-color: #8257e5;
+    color: #fff;
+    outline: none;
+    border-bottom: 8.5px solid #6630e4;
+    transition: margin-top 0.5s, border-bottom 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #926ee6;
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    margin-top: 8px;
+    border-bottom: none;
+}
