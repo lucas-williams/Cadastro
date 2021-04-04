@@ -8,7 +8,7 @@ Está página tem como objetivo realizar o cadastramento de usuários para event
 
 ### Demonstração
 
- ![Screenshot](cadastro.gif)
+![Screenshot](cadastro.gif)
 
 ### Tecnologias
 
