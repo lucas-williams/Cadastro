@@ -1,4 +1,4 @@
-# Cadastro
+### Cadastro
  
  Está página CADASTRO foi desenvolvida para fixar e colocar em prática os conhecimentos por mim adquiridos.
 
