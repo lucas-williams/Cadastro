@@ -41,7 +41,7 @@ body {
     width: 100%;
     height: 70px;
     border-radius: 10px;
-    padding-left: 60px;
+    padding-left: 65px;
     box-sizing: border-box;
     background-color: #121214;
     border: 0px;
@@ -51,13 +51,13 @@ body {
 }
 
 input[type="text"] {
-    background-image: url(../imagens/icon-people.png);
+    background-image: url(../assets/icon-people.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 400px) center ;
 }
 
 input[type="email"] {
-    background-image: url(../imagens/icon-email.png);
+    background-image: url(../assets/icon-email.png);
     background-repeat: no-repeat;
     background-position: calc(100% - 400px) center ;
 }
@@ -68,12 +68,12 @@ input[type="email"] {
 }
 
 input[type="text"]:focus {
-    background-image: url(../imagens/icon-people-color.png);
+    background-image: url(../assets/icon-people-color.png);
     box-shadow: 1px 1px 5px #8257e5, -1px -1px 5px #8257e5;
 }
 
 input[type="email"]:focus {
-    background-image: url(../imagens/icon-email-color.png);
+    background-image: url(../assets/icon-email-color.png);
     box-shadow: 1px 1px 5px #8257e5, -1px -1px 5px #8257e5;
 }
 

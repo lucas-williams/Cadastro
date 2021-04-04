@@ -1,0 +1,54 @@
+@media screen and (max-width: 513px) {
+    
+    .box_form {
+        width: 85%;
+    }
+
+    input[type="text"] {
+        background-image: url(../imagens/icon-people.png);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 95%) center ;
+    }
+
+    input[type="email"] {
+        background-image: url(../imagens/icon-email.png);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 95%) center ;
+    }
+
+    .input_form {
+        padding-left: 15%;
+    }
+
+    @media screen and (max-width: 416px) {
+        .input_form {
+            padding-left: 53px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 345px) {
+    
+    .box_form {
+        font-size: 12px;
+    }
+
+    .input_form {
+        padding-left: 20%;
+    }
+
+    @media screen and (max-width: 300px) {
+        .input_form {
+            padding-left: 53px;
+        }
+
+        .title {
+            font-size: 1.5em;
+        }
+
+        input[type="submit"] {
+            font-size: 1em;
+        }
+    }
+}
